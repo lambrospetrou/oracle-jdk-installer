@@ -22,7 +22,7 @@ System-bits
   -32 or -64 according to your system architecture</pre>
 
 
-Example
+Examples
 --------
 
 <pre>
