@@ -19,21 +19,9 @@ sudo ./jdk-installer.sh javaCompressedTarFile System-bits
 javaCompressedTarFile
   Path to the downloaded jdk file
 System-bits
-  -32 or -64 according to your system architecture</pre>
-
-Verify the setup
-----------------
-In order to verify that it worked you can try the following checks. Note that the fllowing program is the most important but you could check all the binaries that are installed this way:
-
-java -version
-
-You should get a response like:
-<pre>
-java version "1.7.0_05"
-Java(TM) SE Runtime Environment (build 1.7.0_05-b06)
-Java HotSpot(TM) 64-Bit Server VM (build 23.1-b03, mixed mode)
+  -32 or -64 according to your system architecture
 </pre>
-In order to verify that the browser plugin works visit the following webpage and click 'Verify Java version'
+
 
 Examples
 --------
@@ -50,6 +38,19 @@ Used on my Toshiba Satellite A300D 32-bit Ubuntu 12.04 LTS ::
   The command I executed: sudo ./dk-installer jdk-7u5-linux-i586.tar.gz -32
 </pre>
 
+Verify the setup
+----------------
+In order to verify that it worked you can try the following checks. Note that the fllowing program is the most important but you could check all the binaries that are installed this way:
+
+java -version
+
+You should get a response like:
+<pre>
+java version "1.7.0_05"
+Java(TM) SE Runtime Environment (build 1.7.0_05-b06)
+Java HotSpot(TM) 64-Bit Server VM (build 23.1-b03, mixed mode)
+</pre>
+In order to verify that the browser plugin works visit the following webpage and click 'Verify Java version'
 
 Problems
 --------
