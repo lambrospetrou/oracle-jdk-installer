@@ -4,6 +4,7 @@
 #
 # author: Lambros Petrou
 # github: https://github.com/lambrospetrou/oracle-jdk-installer.git
+# version: 1.0
 #
 ######################################
 
