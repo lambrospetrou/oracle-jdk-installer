@@ -7,7 +7,7 @@ Please download the JDK package according to your system from here:
 
 http://www.oracle.com/technetwork/java/javase/downloads/index.html
 
-From the 'Java Platform, Standard Edition' option choose the JDK download and then download the file for your system. Please not that this script is tested only on Ubuntu so you should download one of the 'Linux x86', 'Linux x64' and specifically the one that's compressed (ending in .tar.gz ).
+From the 'Java Platform, Standard Edition' option choose the JDK download and then download the file for your system. Please note that this script is tested only on Ubuntu so you should download one of the 'Linux x86', 'Linux x64' and specifically the one that's compressed (ending in .tar.gz ).
 
 Put the downloaded file in the same folder as the installer ( .sh ) file and run it with root privileges.
 
@@ -51,6 +51,7 @@ Java(TM) SE Runtime Environment (build 1.7.0_05-b06)
 Java HotSpot(TM) 64-Bit Server VM (build 23.1-b03, mixed mode)
 </pre>
 In order to verify that the browser plugin works visit the following webpage and click 'Verify Java version'
+http://www.java.com/en/download/installed.jsp
 
 Problems
 --------
