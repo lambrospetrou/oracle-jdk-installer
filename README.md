@@ -30,17 +30,17 @@ Examples
 Used on my Thinkpad T430 64-bit Ubuntu 12.04 LTS ::
 
   The file I downloaded for my system is: jdk-7u5-linux-x64.tar.gz
-  The command I executed: sudo ./dk-installer jdk-7u5-linux-x64.tar.gz -64
+  The command I executed: sudo ./jdk-installer jdk-7u5-linux-x64.tar.gz -64
   
 Used on my Toshiba Satellite A300D 32-bit Ubuntu 12.04 LTS ::
 
   The file I downloaded for my system is: jdk-7u5-linux-i586.tar.gz
-  The command I executed: sudo ./dk-installer jdk-7u5-linux-i586.tar.gz -32
+  The command I executed: sudo ./jdk-installer jdk-7u5-linux-i586.tar.gz -32
 </pre>
 
 Verify the setup
 ----------------
-In order to verify that it worked you can try the following checks. Note that the fllowing program is the most important but you could check all the binaries that are installed this way:
+In order to verify that it got installed successfully you can try the following checks. Note that the following program is the most important but you could check all the binaries that are installed this way:
 
 java -version
 
