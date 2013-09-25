@@ -22,6 +22,12 @@ function usage(){
 	exit 1;
 }
 
+function install_required_packages(){
+	echo -e "Notice: The command update-java-alternatives from package java-common is required but it's not installed. \n-> Installing it for you right now."
+	apt-get install -q -y java-common
+	echo "Installed."
+}
+
 ## MAIN PROGRAM
 if [ "$(id -u)" != "0" ]; then
 	echo "Error: root privileges required!"
@@ -32,6 +38,9 @@ fi
 if [ $# -ne 2 ]; then
 	usage
 fi
+
+# install java-common if it's not installed
+command -v update-java-alternatives >/dev/null 2>&1 || install_required_packages
 
 arch=$2
 arch=${arch:1}
